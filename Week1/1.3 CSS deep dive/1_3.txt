@@ -1,0 +1,37 @@
+- Use elements, classes, and IDs for styling HTML
+    - classes use .className and IDs use #idName
+- Selectors
+    - element selector (example: p, a, div)
+    - Class selector (example: .myDiv, .phoneNumber)
+    - ID selector (example: #myDiv)
+(look up css specificity on W3 schools)
+    - ID will override a class and class will override and element
+- Relative File Paths
+    - relative file paths connect with other files in working directory
+    - <link rel+"stylesheet" type="text/css" href="assets/style.css">
+        is standard relative path set up
+    - Organized by type usually; usually good to have an assets folder with 
+        a CSS and JS folder for respective files
+    - Many jobs have specific file organization rules
+    - ./ is current directory
+- Box model
+    - Every element rests within a series of boxes
+    - Need to add border width padding and margin to find true size of the
+        element
+- Float
+    - Every element governed by flow
+    - similar to wrap text in Word
+- Many web clients render HTML elements as block elements
+- Use float for in-line elements; make sure to clear items that would mess up 
+    layout
+- class clearfix cleans up in line elements
+- ::after is a psuedo-element
+    - clears flow after that element
+- Positioning elements
+    - position tag is very useful
+    - setting to relative will move boxes relative to it's 
+        original location
+    - absolute Positioning is relative to nearest 
+        positioned ancestor
+    - z-index allows for layering on top of each other
+- Display: none hides elements from view

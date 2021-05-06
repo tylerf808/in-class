@@ -1,0 +1,40 @@
+
+#firstDiv{
+    position: fixed;
+    background-color: lightgrey;
+    width: 100px;
+    height: 80px;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#secondDiv{
+    position: relative;
+    background-color: lightgrey;
+    width: 100%;
+    height: 110px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#thirdDiv{
+    position: absolute;
+    background-color: grey;
+    width: 150px;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    right: 90px;
+}
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}

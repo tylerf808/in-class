@@ -1,0 +1,38 @@
+header h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    border-width: 2%;
+    border-style: dashed;
+    width: 25%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

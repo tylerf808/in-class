@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+
+#main-box {
+    background-color:white;
+}
+
+#wrapper {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#dropdown{
+    
+}
+
+#search-btn {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,7 @@
+- @media allows you to override things based on different aspects
+    of the browser
+- flex takes three pieces of data: flex-grow, flex-shrink, and flex-basis.
+    - Flex-grow allows a flex item to grow if necessary.
+    - Flex-basis defines the starting width
+    - Flex-shrink is weird, look more into it
+- 

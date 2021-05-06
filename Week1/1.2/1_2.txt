@@ -1,0 +1,48 @@
+- WEb dev is collaborative
+- Version control helps manage a single codebase with multi devs
+- Git provides a process for resolving conflicts and version histories
+- Branch is a copy of the codebase
+- Main branch is the "base of the tree"
+    - Git lab still uses master branch terminology
+- Push uploads code changes into the main branch
+- Rule of thumb: Pull first, and then push your changes
+    - ensures any changes made while working on code is in your branch
+        before you push
+- Pull brings the community code and copies it to your computer
+- Conflicts occur on the Pull
+- GitHub allows for a "pull request"
+- README files are an explanation of the repository
+- Basic git commands: git clone, git add, git commit,
+    git push, git pull, git status
+- Make sure to be in repository folder before entering
+    git commands
+- git add -A adds files to get ready to be commited
+    - Adds them to the packages that itself will be commited
+- git push origin main would push changes to main branch; origin specifies
+    which branch you're pushing too 
+
+HTML Syntax
+- opening tags and closing tags with content in between
+- Tags can have attributes
+- Self-closing tags don't need a closing tag (example: img tag)
+- Containers
+    - <html> wraps entire page 
+    - <head> wraps the header of the page
+    - <body> wraps the main content
+    - <div> logical container
+    - <p> wraps individual paragraphs
+- HTML forms take input/interaction from the user
+    - <form>
+    - <input>
+    - <label>
+    - <button> button
+    - <textarea> large text box
+
+CSS
+- Cascading Style Sheets
+- Modify attributes of all your tags in a different file
+- Works by hooking onto a selector added into HTML using classes and 
+    identifiers
+- define class with .className
+- padding effects within the div box, margin effects outside the div box
+- 
